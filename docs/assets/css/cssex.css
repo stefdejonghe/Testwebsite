@@ -1,0 +1,94 @@
+body{
+  line-height: 1.5em;
+  width: 90%;
+  margin : 0 auto;
+}
+
+a{
+  text-decoration: none;
+  margin-left : 20px;
+}
+
+a:hover {
+  background-color: cornflowerblue;
+  color : whitesmoke;
+}
+
+header>h1{
+  background-image: url('../img/header_bg.jpg');
+  padding : 10px;
+  color : whitesmoke;  
+}
+.steelblue {
+  color : lightsteelblue;
+}
+select{
+  background-color: gray;
+  color : ghostwhite;
+}
+
+.titel{
+  background-color: darkgray;
+  color : white;
+  font-weight: bold;
+  padding : 5px;
+  border : 1px solid darkmagenta;
+  border-radius : 5px;
+  display: block;
+}
+
+
+textarea,button{
+  display:block;
+  margin :5px auto;
+}
+
+img{
+  max-height: 150px;
+  margin : 10px;
+}
+
+.product{
+  background-color: lightgray;
+  border : 1px solid black;
+  border-radius : 10px;
+  padding : 10px;
+  margin : 5px;
+}
+
+.bestelling{
+  background-color: lightblue;
+  width: 80%;
+  border : 1px solid blue;
+  border-radius: 5px;
+  margin : 10px;
+  padding : 10px;
+  
+}
+
+.totaal{
+  background-color: lightyellow;
+  width: 80%;
+  border : 1px solid yellow;
+  border-radius: 5px;
+  margin : 5px;
+  padding : 10px;
+
+}
+
+#overview {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+#overview article {
+  text-align: center;
+  
+}
+
+.block {
+  display: block;
+}
+
